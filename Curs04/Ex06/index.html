@@ -20,7 +20,7 @@
   <p>
     <img
       src="images/new_address.jpg"
-      alt=""
+      alt="user"
     >
   </p>
 
@@ -79,7 +79,7 @@
         name="gender"
         id="na"
         value="na"
-      ><label for="na">na</label>
+      ><label for="na">unspecified</label>
 
       <br> <br>
       <label for="name">Name*</label>
@@ -135,48 +135,47 @@
         required
       > <br> <br>
 
-      <label for=""></label>
+      <label for="state">State*</label>
       <select
-        name=""
-        id=""
+        name="state"
+        id="state"
+        required
       >
         <option value="">--select--</option>
+        <option value="arkansas">Arkansas</option>
+        <option value="newYork">New York</option>
+        <option value="alabama">Alabama</option>
       </select>
-      <br> <br>
+      <br><br>
+
       <label for="postcode">Postcode*</label>
       <input
         name="postcode"
         id="postcode"
         placeholder="Postcode"
         required
-      >
+      ><br><br>
 
+      <label for="gdpr-consent">Gdpr-consent*</label>
+      <input
+        type="checkbox"
+        name="gdpr-consent"
+        id="gdpr-consent"
+      > <br><br>
 
+      <button
+        type="submit"
+        name="submit"
+        id="submit"
+      >Create Account</button>
 
-
-
-
-
-
-
-
+      <button
+        type="reset"
+        name="reset"
+        id="reset"
+      >Reset</button>
     </fieldset>
-
-    sel
-
-
-
-
-
-
-
   </form>
-
-
-
-
-
-
 
 
 
