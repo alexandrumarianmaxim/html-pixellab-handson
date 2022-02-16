@@ -14,3 +14,34 @@ a [href$=' .com'] {
   color: black;
   text-decoration: underline;
 }
+
+a {
+  color: green;
+}
+
+p {
+  color: grey;
+  text-decoration: linen;
+}
+
+b {
+  text-decoration: underline;
+  color: purple;
+}
+
+.odd {
+  color: blue;
+}
+
+.odd i {
+  text-decoration: underline;
+}
+
+a[href^="http://"]
+{
+  color: red;
+}
+
+a[href*='.com'] {
+  color: black;
+}
